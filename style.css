@@ -1,0 +1,73 @@
+body{
+  background-image:url(./beach.avif);
+  background-size:cover;
+}
+.container {
+  height: 100vh;
+}
+
+.InputSection {
+  padding: 20px;
+}
+
+.resultSection > .card-body {
+  background-color: #33bbc5;
+
+  flex-wrap: wrap;
+}
+
+#resultValueSection {
+  display: inline;
+  color: whitesmoke; 
+}
+
+#convertedDegree {
+  display: inline;
+  font-size: 50px;
+}
+#degree {
+  display: inline;
+}
+#convertedUnit {
+  display: inline;
+  font-size: 20px;
+}
+
+svg {
+  margin-left: 8px;
+}
+.btn-primary {
+  background-color: #33bbc5;
+}
+
+span {
+  font-size: 20px;
+
+  font-weight: bold;
+}
+label {
+  color: #176b87;
+
+  margin-left: 5px;
+  margin-bottom: 2px;
+}
+
+@media (max-width: 576px) {
+  .card-group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .InputSection {
+    order: 2;
+  }
+}
+
+.input-group {
+  margin-bottom: 3px;
+}
+
+footer {
+  font-size: 10px;
+  font-weight: light;
+}
